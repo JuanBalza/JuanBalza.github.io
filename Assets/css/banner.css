@@ -3,6 +3,10 @@
 position: relative;
 }
 
+#banner p {
+  color: #455A64;
+}
+
 #banner img {
   width: 100%;
   height: 100%;
@@ -19,6 +23,7 @@ position: relative;
 #banner h2 {
   font-size: 28px;
 }
+
 #banner a {
 display: block;
 width: 100px;
