@@ -120,3 +120,13 @@ footer .contenedor {
   footer .contenedor {
     justify-content: space-between;
 }
+
+body .cursor {
+  width: 7px;
+  height: 7px;
+  border: 5px solid #1a1a1a;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 100ms;
+}

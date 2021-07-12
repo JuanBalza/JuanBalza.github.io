@@ -7,15 +7,23 @@
     <title>Juegos Epicos</title>
   </head>
   <body>
+    <div class="cursor"></div>
+    <script>
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: " + (e.pageY -10) + "px; left: "+(e.pageX -10) + "px;");
+      })
+    </script>
 <header>
   <div class="contenedor">
-      <h1 class="icon-mando">HIPERGAMES</h1>
+      <img src="" alt="">
+      <h1 class="">HIPERGAMES</h1>
       <input type="checkbox" id="menu-bar">
       <label class="icon-menu" for="menu-bar"></label>
       <nav class="menu">
         <a href="../Layouts/index.html#">Inicio</a>
-        <a href="#">Noticias</a>
-        <a href="#">Información</a>
+        <a href="#info">Noticias</a>
+        <a href="#bienvenidos">Información</a>
         <a href="#contacto">Contacto</a>
       </nav>
   </div>
